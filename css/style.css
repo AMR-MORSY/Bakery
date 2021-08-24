@@ -233,11 +233,14 @@ body {
 
 .scrollup {
     position: fixed;
-    z-index: 2;
+    z-index: 999;
     bottom: 5%;
     right: 20px;
 }
-
+.display-block
+{
+    display: block;
+}
 #whoweare {
     padding-top: 100px;
     padding-bottom: 50px;
