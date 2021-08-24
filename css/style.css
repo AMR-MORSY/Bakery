@@ -15,6 +15,7 @@
 body {
     font-family: "Alegreya Sans";
     height: 100vh;
+    width: 100vw;
 }
 
 #introduction {
@@ -75,6 +76,11 @@ body {
 #bakery2
 {
     display: none;
+    
+}
+#bakery
+{
+    width: 200px;
 }
 
 .nav-link {
@@ -212,7 +218,7 @@ body {
 .side {
     background-color: #FFFFFF;
     position: fixed;
-    top: 300px;
+    top: 20%;
     right: 0;
     padding: 10 10 10 10;
     border-radius: 5px;
@@ -542,9 +548,11 @@ footer {
     }
     #bakery2 {
         display: block;
+        width: 100px;
     }
     #bakery {
         display: none;
+        
     }
     #whoweare {
         height: unset;
@@ -650,6 +658,7 @@ footer {
     }
     #bakery2 {
         display: block;
+        width: 120px;
     }
     #bakery {
         display: none;
@@ -726,6 +735,7 @@ footer {
     }
     #bakery2 {
         display: block;
+        width: 150px;
     }
     #bakery {
         display: none;
@@ -739,12 +749,12 @@ footer {
         display: block;
         border-bottom: 1px solid white;
     }
-    #bakery2 {
-        display: block;
-    }
-    #bakery {
-        display: none;
-    }
+   
+   
+   
+   
+   
+   
     #whoweare {
         height: unset;
         padding-top: 30px;
