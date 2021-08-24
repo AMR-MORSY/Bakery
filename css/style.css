@@ -21,7 +21,6 @@ body {
 #introduction {
     background-image:url(../photos/drew-coffman-1872.jpg);
     background-position: center;
-    
     background-size: 100%;
     height: 100vh;
 }
@@ -160,9 +159,7 @@ body {
     transition: 1s opacity;
 }
 
-.display-block {
-    opacity: 1;
-}
+
 
 .scrolldown {
     width: 40px;
@@ -225,11 +222,13 @@ body {
     z-index: 2;
     -webkit-box-shadow: 1px 1px 20px black;
     box-shadow: 1px 1px 20px black;
+    cursor: pointer;
 }
 
 .side img {
     width: 20px;
     height: 20px;
+    
 }
 
 .scrollup {
@@ -535,7 +534,7 @@ footer {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         width: 100%;
-        padding-right: 50px;
+      
     }
     .collapse {
         margin-top: unset;
@@ -584,6 +583,10 @@ footer {
     }
     .map {
         background-image: unset;
+    }
+    #summary {
+       padding-left: 30px;
+       
     }
     
 .final-div img {
@@ -645,7 +648,7 @@ footer {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         width: 100%;
-        padding-right: 50px;
+        
     }
     .collapse {
         margin-top: unset;
@@ -694,6 +697,10 @@ footer {
     .map {
         background-image: unset;
     }
+    #summary {
+        padding-left: 30px;
+        
+     }
     .final-div img {
         width: 30%;
     }
@@ -726,7 +733,7 @@ footer {
         justify-content: space-between !important;
         position: unset;
         width: 100%;
-        padding-right: 50px;
+        
     }
     .nav-link {
         color: #8E7754;
@@ -749,11 +756,6 @@ footer {
         display: block;
         border-bottom: 1px solid white;
     }
-   
-   
-   
-   
-   
    
     #whoweare {
         height: unset;
@@ -789,6 +791,10 @@ footer {
     iframe {
         height: 500px;
     }
+    #summary {
+        padding-left: 30px;
+        
+     }
     .socialicons {
       
         width: 40px;
