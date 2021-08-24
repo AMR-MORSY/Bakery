@@ -218,7 +218,7 @@ body {
 .side {
     background-color: #FFFFFF;
     position: fixed;
-    top: 20%;
+    bottom: 50%;
     right: 0;
     padding: 10 10 10 10;
     border-radius: 5px;
