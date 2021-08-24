@@ -15,31 +15,31 @@
 body {
     font-family: "Alegreya Sans";
     height: 100vh;
-    width: 100vw;
+    /* width: 100vw; */
 }
 
 #introduction {
-    background-image:url(../photos/drew-coffman-1872.jpg);
+    background-image: url(../photos/drew-coffman-1872.jpg);
     background-position: center;
     background-size: 100%;
     height: 100vh;
 }
 
 .navbar {
-    width: 100vw;
+    width: 100%;
     background-color: transparent;
-     display: -webkit-box !important; 
-     display: -ms-flexbox !important; 
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
     display: flex !important;
-     -ms-flex-pack: distribute !important; 
+    -ms-flex-pack: distribute !important;
     justify-content: space-around !important;
-     -webkit-box-align: center !important; 
-     -ms-flex-align: center !important; 
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
     align-items: center !important;
     position: fixed;
     z-index: 99999;
-     -webkit-transition: 1s background-color; 
-     -o-transition: 1s background-color; 
+    -webkit-transition: 1s background-color;
+    -o-transition: 1s background-color;
     transition: 1s background-color;
 }
 
@@ -72,13 +72,12 @@ body {
 .collapse {
     margin-top: 10px;
 }
-#bakery2
-{
+
+#bakery2 {
     display: none;
-    
 }
-#bakery
-{
+
+#bakery {
     width: 200px;
 }
 
@@ -152,13 +151,21 @@ body {
     border-color: white;
 }
 
+
 .scrollup {
-    opacity: 0;
-    -webkit-transition: 1s opacity;
-    -o-transition: 1s opacity;
-    transition: 1s opacity;
+    position: fixed;
+    z-index: 2;
+    bottom: 5%;
+    right: 20px;
+    opacity: 0; 
+    -webkit-transition: 1s opacity; 
+    -o-transition: 1s opacity; 
+    transition: 1s opacity; 
 }
 
+.display-block {
+    opacity: 1;
+}
 
 
 .scrolldown {
@@ -228,19 +235,8 @@ body {
 .side img {
     width: 20px;
     height: 20px;
-    
 }
 
-.scrollup {
-    position: fixed;
-    z-index: 999;
-    bottom: 5%;
-    right: 20px;
-}
-.display-block
-{
-    display: block;
-}
 #whoweare {
     padding-top: 100px;
     padding-bottom: 50px;
@@ -497,6 +493,9 @@ footer {
 /*  extra small windows */
 
     {
+       
+       
+       
     #introduction {
         height: unset;
         background-position: center;
@@ -537,11 +536,9 @@ footer {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         width: 100%;
-      
     }
     .collapse {
         margin-top: unset;
-   
     }
     .nav-link {
         color: #8E7754;
@@ -554,7 +551,6 @@ footer {
     }
     #bakery {
         display: none;
-        
     }
     #whoweare {
         height: unset;
@@ -588,25 +584,21 @@ footer {
         background-image: unset;
     }
     #summary {
-       padding-left: 30px;
-       
+        padding-left: 30px;
     }
-    
-.final-div img {
-    width: 30%;
+    .final-div img {
+        width: 30%;
+    }
+    .final-div p {
+        font-size: 14px;
+    }
+    .socialicons {
+        width: 35px;
+        height: 35px;
+        font-size: 15px;
+    }
 }
-.final-div p {
-   
-    font-size: 14px;
-}
-.socialicons {
-    
-    width: 35px;
-    height: 35px;
-    font-size: 15px;
 
-}
-    }
 @media (min-width:577px) and (max-width:768px)
 /* small windows*/
 
@@ -651,11 +643,9 @@ footer {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         width: 100%;
-        
     }
     .collapse {
         margin-top: unset;
-        
     }
     .nav-link {
         color: #8E7754;
@@ -702,21 +692,17 @@ footer {
     }
     #summary {
         padding-left: 30px;
-        
-     }
+    }
     .final-div img {
         width: 30%;
     }
     .final-div p {
-       
         font-size: 16px;
     }
     .socialicons {
-        
         width: 40px;
         height: 40px;
         font-size: 20px;
-    
     }
 }
 
@@ -736,7 +722,6 @@ footer {
         justify-content: space-between !important;
         position: unset;
         width: 100%;
-        
     }
     .nav-link {
         color: #8E7754;
@@ -752,14 +737,12 @@ footer {
     }
     .collapse {
         margin-top: unset;
-     
     }
     .nav-link {
         color: #8E7754;
         display: block;
         border-bottom: 1px solid white;
     }
-   
     #whoweare {
         height: unset;
         padding-top: 30px;
@@ -796,14 +779,11 @@ footer {
     }
     #summary {
         padding-left: 30px;
-        
-     }
+    }
     .socialicons {
-      
         width: 40px;
         height: 40px;
         font-size: 20px;
-    
     }
 }
 
